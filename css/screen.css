@@ -163,6 +163,10 @@ a:focus {
     font-size: 58px;
     line-height: 64px;
   }
+  h2 {
+    font-style: 32px;
+    line-height: 48px;
+  }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
