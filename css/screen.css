@@ -83,24 +83,43 @@ dl,
 table,
 address,
 figure {
+  margin: 0 0 24px;
 }
 
 ul,
-ol,
+ol {
+  padding-left: 24px;
+}
 blockquote {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: 'Times New Roman', serif;
 }
 
 li ul,
 li ol {
+  margin-bottom: 0;
 }
 
-blockquote {
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
 }
 
 figcaption {
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: gray;
 }
 
 hr {
+  border: 0;
+  height: 1px;
+  background: lightgray;
+  margin: 0 0 24px;
 }
 
 a {
